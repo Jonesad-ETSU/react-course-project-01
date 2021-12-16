@@ -3,8 +3,7 @@ import Card from './UI/Card';
 import User from './User';
 
 const Users = (props) => {
-    return <div>
-        <Card>
+    return <Card>
             <h2>Users List</h2>
             {props.items.map(x => {
                 return <User 
@@ -13,8 +12,7 @@ const Users = (props) => {
                     age = {x.age}
                 />;
             })}
-        </Card>
-    </div>;
+        </Card>;
 };
 
 export default Users;
