@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
-  border-radius: 2rem;
   /*background-color:rgb(126, 127, 128);*/
 }
 
 html {
   font-family: sans-serif;
+  background-color: teal;
 }
 
 body {

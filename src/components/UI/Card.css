@@ -1,7 +1,9 @@
 .card {
-    background-color: slateblue;
-    border-radius: 5px;
+    background-color: honeydew;
+    border-width: 5rem;
+    border-radius: 5rem;
     width: 50%;
     margin: auto;
     padding: 4rem;
+    margin-top: 3rem;
 }

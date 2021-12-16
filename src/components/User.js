@@ -1,5 +1,6 @@
-export default (props) => {
+const User = (props) => {
     return <div className = 'user'>
-        <h2><em>{props.name}</em></h2> is {props.age}.
+        <em>{props.name}</em> is {props.age}.
     </div>;
 };
+export default User;
